@@ -1,0 +1,56 @@
+{
+  "name": "acs-ai-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/communication-calling": "^1.21.1",
+    "@azure/communication-chat": "^1.4.0",
+    "@azure/communication-common": "^2.3.0",
+    "@azure/communication-react": "^1.12.0",
+    "@azure/web-pubsub": "^1.1.1",
+    "@fluentui/react-charting": "^5.19.27",
+    "@fluentui/react-components": "^9.46.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.79",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-use-websocket": "^4.7.0",
+    "serve": "^14.2.1",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8"
+  }
+}

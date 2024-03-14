@@ -1,0 +1,7 @@
+uvicorn
+dapr
+python-dotenv
+fastapi
+openai
+azure-identity
+azure-messaging-webpubsubservice

@@ -1,0 +1,1 @@
+Copilot App is making use of Dapr to maintain the state of a conversation and to process eventhub messages forwared by Web PubSub (client-to-cloud messages from the recruiter frontend). To run it locally, adjust the settings in config/eventhub.yaml. Detailed instructions and more automation to come.

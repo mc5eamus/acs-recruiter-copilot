@@ -1,0 +1,21 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: conversation
+spec:
+  type: bindings.azure.eventhubs
+  metadata:
+  - name: connectionString
+    value: "Replace with your Event Hub Namespace connection string"
+  - name: consumerGroup
+    value: "copilot"
+  - name: eventHub
+    value: "conversation"
+  - name: storageAccountName
+    value: "Replace with your storage account name"
+  - name: storageAccountKey
+    value: "Replace with your storage account key"
+  - name: storageContainerName
+    value: "copilot-binding"
+  - name: "direction"
+    value: "input"
