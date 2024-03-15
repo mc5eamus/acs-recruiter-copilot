@@ -4,7 +4,7 @@
 
 This accelerator faciliates an audio/video/chat conversation between a recruiter and a candidate providing the former a transcript and some basic AI-backed analytics of the conversation history.
 
-(Architecture diagram: Work in progress)
+![Architecture Overview](media/architecture-overview.png)
 
 ### Frontend
 React-based app leveraging [Azure Communication Services UI Library] (https://github.com/Azure/communication-ui-library) for recruiters and candidates.
